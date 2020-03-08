@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_users"
+            android:icon="@drawable/users"
+            android:title="@string/UsersString"
+            />
+        <item android:id="@+id/Page1"
+            android:icon="@drawable/image_placeholder"
+            android:title="@string/albums"/>
+        <item android:id="@+id/Page2"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="@string/contacts"/>
+        <item android:id="@+id/nav_media"
+            android:title="@string/media"
+            android:icon="@drawable/ic_play_circle_filled_black_24dp"
+            />
+    </group>
+
+    <item android:title="" >
+        <menu>
+            <item android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="@string/log_out"/>
+        </menu>
+    </item>
+
+</menu>
